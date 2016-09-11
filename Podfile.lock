@@ -1,0 +1,18 @@
+PODS:
+  - Bolts/Tasks (1.8.4)
+  - havenondemand (1.0.4)
+  - Parse (1.14.2):
+    - Bolts/Tasks (~> 1.8)
+
+DEPENDENCIES:
+  - havenondemand (= 1.0.4)
+  - Parse (= 1.14.2)
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  havenondemand: de7ed5a042eee4b9b6982a2a61852d533e017c34
+  Parse: 4335d65f40cb3d43190d723144bbe1afb9c38230
+
+PODFILE CHECKSUM: 71dfaf1b6421024a68fc0d734f6b2b0293d89a28
+
+COCOAPODS: 1.0.1
