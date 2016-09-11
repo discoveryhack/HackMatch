@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Participants View Controller-->
+        <scene sceneID="MA1-dV-qM9">
+            <objects>
+                <viewController storyboardIdentifier="ParticipantsViewController" id="ak9-pz-oWM" customClass="ParticipantsViewController" customModule="HackMatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qnC-mJ-QaA"/>
+                        <viewControllerLayoutGuide type="bottom" id="s8c-cu-PfK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fhH-vw-23u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="47" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wMz-Q7-Mjk">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ParticipantCell" rowHeight="47" id="di5-GQ-Quy" customClass="ParticipantCell" customModule="HackMatch" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="47"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="di5-GQ-Quy" id="vmn-TR-TcT">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="46.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="userName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c9I-2u-2MP">
+                                                    <rect key="frame" x="18" y="13" width="79" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="participantNameLabel" destination="c9I-2u-2MP" id="KlQ-VA-Dn7"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="participantsTableView" destination="wMz-Q7-Mjk" id="VCx-Gg-vCC"/>
+                        <segue destination="Q0l-yM-jXa" kind="push" identifier="ParticipantDetailsSegue" id="aUV-se-MQ9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jD4-Hq-Typ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="168"/>
+        </scene>
+        <!--Participant Details View Controller-->
+        <scene sceneID="KAy-N7-RSv">
+            <objects>
+                <viewController id="Q0l-yM-jXa" customClass="ParticipantDetailsViewController" customModule="HackMatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nqs-GO-Hle"/>
+                        <viewControllerLayoutGuide type="bottom" id="Vms-e9-RLi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bwy-L5-8EY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fMW-Sx-434"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Owm-Jb-gaK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="436" y="169"/>
+        </scene>
+    </scenes>
+</document>

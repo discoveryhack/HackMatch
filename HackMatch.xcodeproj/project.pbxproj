@@ -16,6 +16,39 @@
 		7B3ED07C1D84D4A700C1BFCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3ED07A1D84D4A700C1BFCF /* LaunchScreen.storyboard */; };
 		7B3ED0871D84D4A700C1BFCF /* HackMatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0861D84D4A700C1BFCF /* HackMatchTests.swift */; };
 		7B3ED0921D84D4A700C1BFCF /* HackMatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0911D84D4A700C1BFCF /* HackMatchUITests.swift */; };
+		7B3ED0A41D84D7B400C1BFCF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0A31D84D7B400C1BFCF /* User.swift */; };
+		7B3ED0A61D84D85B00C1BFCF /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0A51D84D85B00C1BFCF /* Project.swift */; };
+		7B3ED0A81D84D87100C1BFCF /* Role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0A71D84D87100C1BFCF /* Role.swift */; };
+		7B3ED0AA1D84D88D00C1BFCF /* Skill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0A91D84D88D00C1BFCF /* Skill.swift */; };
+		7B3ED0AC1D84D9A300C1BFCF /* Hack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0AB1D84D9A300C1BFCF /* Hack.swift */; };
+		7B3ED0B01D8512CC00C1BFCF /* UserDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0AF1D8512CC00C1BFCF /* UserDO.swift */; };
+		7B3ED0B31D85132800C1BFCF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0B21D85132800C1BFCF /* Constants.swift */; };
+		7B3ED0B51D85141400C1BFCF /* SkillDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0B41D85141400C1BFCF /* SkillDO.swift */; };
+		7B3ED0B71D85244900C1BFCF /* RoleDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0B61D85244900C1BFCF /* RoleDO.swift */; };
+		7B3ED0B91D8524C500C1BFCF /* HackDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0B81D8524C500C1BFCF /* HackDO.swift */; };
+		7B3ED0BB1D8524FD00C1BFCF /* ProjectDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0BA1D8524FD00C1BFCF /* ProjectDO.swift */; };
+		7B3ED0BE1D85284F00C1BFCF /* HackUserRelationDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0BD1D85284F00C1BFCF /* HackUserRelationDO.swift */; };
+		7B3ED0C11D85332E00C1BFCF /* HacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0C01D85332E00C1BFCF /* HacksViewController.swift */; };
+		7B3ED0C31D8533B500C1BFCF /* HackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0C21D8533B500C1BFCF /* HackDetailsViewController.swift */; };
+		7B3ED0C51D8533CF00C1BFCF /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0C41D8533CF00C1BFCF /* ProjectsViewController.swift */; };
+		7B3ED0C71D8533DD00C1BFCF /* ParticipantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0C61D8533DD00C1BFCF /* ParticipantsViewController.swift */; };
+		7B3ED0C91D8533ED00C1BFCF /* ProjectDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0C81D8533ED00C1BFCF /* ProjectDetailsViewController.swift */; };
+		7B3ED0CB1D8533FD00C1BFCF /* ParticipantDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0CA1D8533FD00C1BFCF /* ParticipantDetailsViewController.swift */; };
+		7B3ED0CD1D85348400C1BFCF /* Hack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3ED0CC1D85348400C1BFCF /* Hack.storyboard */; };
+		7B3ED0CF1D85349000C1BFCF /* Project.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3ED0CE1D85349000C1BFCF /* Project.storyboard */; };
+		7B3ED0D11D8534C000C1BFCF /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3ED0D01D8534C000C1BFCF /* User.storyboard */; };
+		7B3ED0D51D85359300C1BFCF /* HackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0D41D85359300C1BFCF /* HackCell.swift */; };
+		7B3ED0D81D85416200C1BFCF /* HackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0D71D85416200C1BFCF /* HackManager.swift */; };
+		7B3ED0DA1D85417E00C1BFCF /* HackMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0D91D85417E00C1BFCF /* HackMapper.swift */; };
+		7B3ED0DC1D85419E00C1BFCF /* ParseDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0DB1D85419E00C1BFCF /* ParseDAO.swift */; };
+		7B3ED0DE1D85553300C1BFCF /* ParseContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0DD1D85553300C1BFCF /* ParseContext.swift */; };
+		7B3ED0E01D856BE100C1BFCF /* ProjectManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0DF1D856BE100C1BFCF /* ProjectManager.swift */; };
+		7B3ED0E21D856BEB00C1BFCF /* ProjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0E11D856BEB00C1BFCF /* ProjectMapper.swift */; };
+		7B3ED0E41D856BF900C1BFCF /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0E31D856BF900C1BFCF /* UserManager.swift */; };
+		7B3ED0E61D856C0800C1BFCF /* UserMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0E51D856C0800C1BFCF /* UserMapper.swift */; };
+		7B3ED0E81D85735400C1BFCF /* HackUserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0E71D85735400C1BFCF /* HackUserManager.swift */; };
+		7B3ED0EC1D85CB8D00C1BFCF /* ProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0EB1D85CB8D00C1BFCF /* ProjectCell.swift */; };
+		7B3ED0F01D85CBDF00C1BFCF /* ParticipantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3ED0EF1D85CBDF00C1BFCF /* ParticipantCell.swift */; };
 		CCB1A9220BD6CC9BD9697E9B /* Pods_HackMatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F32FD25CACE0D40ADF40B469 /* Pods_HackMatchUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +88,39 @@
 		7B3ED08D1D84D4A700C1BFCF /* HackMatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackMatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3ED0911D84D4A700C1BFCF /* HackMatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackMatchUITests.swift; sourceTree = "<group>"; };
 		7B3ED0931D84D4A700C1BFCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B3ED0A31D84D7B400C1BFCF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7B3ED0A51D84D85B00C1BFCF /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		7B3ED0A71D84D87100C1BFCF /* Role.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Role.swift; sourceTree = "<group>"; };
+		7B3ED0A91D84D88D00C1BFCF /* Skill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skill.swift; sourceTree = "<group>"; };
+		7B3ED0AB1D84D9A300C1BFCF /* Hack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hack.swift; sourceTree = "<group>"; };
+		7B3ED0AF1D8512CC00C1BFCF /* UserDO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDO.swift; sourceTree = "<group>"; };
+		7B3ED0B21D85132800C1BFCF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7B3ED0B41D85141400C1BFCF /* SkillDO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillDO.swift; sourceTree = "<group>"; };
+		7B3ED0B61D85244900C1BFCF /* RoleDO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoleDO.swift; sourceTree = "<group>"; };
+		7B3ED0B81D8524C500C1BFCF /* HackDO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackDO.swift; sourceTree = "<group>"; };
+		7B3ED0BA1D8524FD00C1BFCF /* ProjectDO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDO.swift; sourceTree = "<group>"; };
+		7B3ED0BD1D85284F00C1BFCF /* HackUserRelationDO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackUserRelationDO.swift; sourceTree = "<group>"; };
+		7B3ED0C01D85332E00C1BFCF /* HacksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HacksViewController.swift; sourceTree = "<group>"; };
+		7B3ED0C21D8533B500C1BFCF /* HackDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackDetailsViewController.swift; sourceTree = "<group>"; };
+		7B3ED0C41D8533CF00C1BFCF /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		7B3ED0C61D8533DD00C1BFCF /* ParticipantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantsViewController.swift; sourceTree = "<group>"; };
+		7B3ED0C81D8533ED00C1BFCF /* ProjectDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailsViewController.swift; sourceTree = "<group>"; };
+		7B3ED0CA1D8533FD00C1BFCF /* ParticipantDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantDetailsViewController.swift; sourceTree = "<group>"; };
+		7B3ED0CC1D85348400C1BFCF /* Hack.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Hack.storyboard; sourceTree = "<group>"; };
+		7B3ED0CE1D85349000C1BFCF /* Project.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Project.storyboard; sourceTree = "<group>"; };
+		7B3ED0D01D8534C000C1BFCF /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		7B3ED0D41D85359300C1BFCF /* HackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackCell.swift; sourceTree = "<group>"; };
+		7B3ED0D71D85416200C1BFCF /* HackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackManager.swift; sourceTree = "<group>"; };
+		7B3ED0D91D85417E00C1BFCF /* HackMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackMapper.swift; sourceTree = "<group>"; };
+		7B3ED0DB1D85419E00C1BFCF /* ParseDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseDAO.swift; sourceTree = "<group>"; };
+		7B3ED0DD1D85553300C1BFCF /* ParseContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseContext.swift; sourceTree = "<group>"; };
+		7B3ED0DF1D856BE100C1BFCF /* ProjectManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectManager.swift; sourceTree = "<group>"; };
+		7B3ED0E11D856BEB00C1BFCF /* ProjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectMapper.swift; sourceTree = "<group>"; };
+		7B3ED0E31D856BF900C1BFCF /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		7B3ED0E51D856C0800C1BFCF /* UserMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserMapper.swift; sourceTree = "<group>"; };
+		7B3ED0E71D85735400C1BFCF /* HackUserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackUserManager.swift; sourceTree = "<group>"; };
+		7B3ED0EB1D85CB8D00C1BFCF /* ProjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectCell.swift; sourceTree = "<group>"; };
+		7B3ED0EF1D85CBDF00C1BFCF /* ParticipantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipantCell.swift; sourceTree = "<group>"; };
 		C28B4E356FDD25B818F9D3F9 /* Pods_HackMatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackMatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C33A0D611CD492E0EA0625 /* Pods-HackMatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HackMatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HackMatch/Pods-HackMatch.debug.xcconfig"; sourceTree = "<group>"; };
 		F32FD25CACE0D40ADF40B469 /* Pods_HackMatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HackMatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +203,14 @@
 		7B3ED0701D84D4A700C1BFCF /* HackMatch */ = {
 			isa = PBXGroup;
 			children = (
+				7B3ED0D61D853D3300C1BFCF /* Manager */,
+				7B3ED0BF1D852EF200C1BFCF /* Mapper */,
+				7B3ED0B11D85131E00C1BFCF /* Util */,
+				7B3ED0AD1D85129E00C1BFCF /* Storyboard */,
+				7B3ED0A21D84D79200C1BFCF /* Datastore */,
+				7B3ED0A11D84D77800C1BFCF /* View */,
+				7B3ED0A01D84D76500C1BFCF /* Controller */,
+				7B3ED09F1D84D76000C1BFCF /* Model */,
 				7B3ED0711D84D4A700C1BFCF /* AppDelegate.swift */,
 				7B3ED0731D84D4A700C1BFCF /* ViewController.swift */,
 				7B3ED0751D84D4A700C1BFCF /* Main.storyboard */,
@@ -163,6 +237,103 @@
 				7B3ED0931D84D4A700C1BFCF /* Info.plist */,
 			);
 			path = HackMatchUITests;
+			sourceTree = "<group>";
+		};
+		7B3ED09F1D84D76000C1BFCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED0A31D84D7B400C1BFCF /* User.swift */,
+				7B3ED0A51D84D85B00C1BFCF /* Project.swift */,
+				7B3ED0A71D84D87100C1BFCF /* Role.swift */,
+				7B3ED0A91D84D88D00C1BFCF /* Skill.swift */,
+				7B3ED0AB1D84D9A300C1BFCF /* Hack.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7B3ED0A01D84D76500C1BFCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED0C01D85332E00C1BFCF /* HacksViewController.swift */,
+				7B3ED0C21D8533B500C1BFCF /* HackDetailsViewController.swift */,
+				7B3ED0C41D8533CF00C1BFCF /* ProjectsViewController.swift */,
+				7B3ED0C61D8533DD00C1BFCF /* ParticipantsViewController.swift */,
+				7B3ED0C81D8533ED00C1BFCF /* ProjectDetailsViewController.swift */,
+				7B3ED0CA1D8533FD00C1BFCF /* ParticipantDetailsViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7B3ED0A11D84D77800C1BFCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED0D41D85359300C1BFCF /* HackCell.swift */,
+				7B3ED0EB1D85CB8D00C1BFCF /* ProjectCell.swift */,
+				7B3ED0EF1D85CBDF00C1BFCF /* ParticipantCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7B3ED0A21D84D79200C1BFCF /* Datastore */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED0AE1D8512BF00C1BFCF /* DO */,
+				7B3ED0DB1D85419E00C1BFCF /* ParseDAO.swift */,
+				7B3ED0DD1D85553300C1BFCF /* ParseContext.swift */,
+			);
+			name = Datastore;
+			sourceTree = "<group>";
+		};
+		7B3ED0AD1D85129E00C1BFCF /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED0CC1D85348400C1BFCF /* Hack.storyboard */,
+				7B3ED0CE1D85349000C1BFCF /* Project.storyboard */,
+				7B3ED0D01D8534C000C1BFCF /* User.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		7B3ED0AE1D8512BF00C1BFCF /* DO */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED0AF1D8512CC00C1BFCF /* UserDO.swift */,
+				7B3ED0B41D85141400C1BFCF /* SkillDO.swift */,
+				7B3ED0B61D85244900C1BFCF /* RoleDO.swift */,
+				7B3ED0B81D8524C500C1BFCF /* HackDO.swift */,
+				7B3ED0BA1D8524FD00C1BFCF /* ProjectDO.swift */,
+				7B3ED0BD1D85284F00C1BFCF /* HackUserRelationDO.swift */,
+			);
+			name = DO;
+			sourceTree = "<group>";
+		};
+		7B3ED0B11D85131E00C1BFCF /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED0B21D85132800C1BFCF /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		7B3ED0BF1D852EF200C1BFCF /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED0D91D85417E00C1BFCF /* HackMapper.swift */,
+				7B3ED0E11D856BEB00C1BFCF /* ProjectMapper.swift */,
+				7B3ED0E51D856C0800C1BFCF /* UserMapper.swift */,
+			);
+			name = Mapper;
+			sourceTree = "<group>";
+		};
+		7B3ED0D61D853D3300C1BFCF /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7B3ED0D71D85416200C1BFCF /* HackManager.swift */,
+				7B3ED0DF1D856BE100C1BFCF /* ProjectManager.swift */,
+				7B3ED0E31D856BF900C1BFCF /* UserManager.swift */,
+				7B3ED0E71D85735400C1BFCF /* HackUserManager.swift */,
+			);
+			name = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +449,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B3ED07C1D84D4A700C1BFCF /* LaunchScreen.storyboard in Resources */,
+				7B3ED0CD1D85348400C1BFCF /* Hack.storyboard in Resources */,
+				7B3ED0D11D8534C000C1BFCF /* User.storyboard in Resources */,
+				7B3ED0CF1D85349000C1BFCF /* Project.storyboard in Resources */,
 				7B3ED0791D84D4A700C1BFCF /* Assets.xcassets in Resources */,
 				7B3ED0771D84D4A700C1BFCF /* Main.storyboard in Resources */,
 			);
@@ -428,7 +602,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B3ED0741D84D4A700C1BFCF /* ViewController.swift in Sources */,
+				7B3ED0C51D8533CF00C1BFCF /* ProjectsViewController.swift in Sources */,
+				7B3ED0E21D856BEB00C1BFCF /* ProjectMapper.swift in Sources */,
+				7B3ED0D51D85359300C1BFCF /* HackCell.swift in Sources */,
+				7B3ED0E01D856BE100C1BFCF /* ProjectManager.swift in Sources */,
+				7B3ED0E41D856BF900C1BFCF /* UserManager.swift in Sources */,
+				7B3ED0B91D8524C500C1BFCF /* HackDO.swift in Sources */,
+				7B3ED0B01D8512CC00C1BFCF /* UserDO.swift in Sources */,
+				7B3ED0B51D85141400C1BFCF /* SkillDO.swift in Sources */,
+				7B3ED0AC1D84D9A300C1BFCF /* Hack.swift in Sources */,
+				7B3ED0BB1D8524FD00C1BFCF /* ProjectDO.swift in Sources */,
+				7B3ED0DC1D85419E00C1BFCF /* ParseDAO.swift in Sources */,
+				7B3ED0DE1D85553300C1BFCF /* ParseContext.swift in Sources */,
+				7B3ED0E81D85735400C1BFCF /* HackUserManager.swift in Sources */,
+				7B3ED0C31D8533B500C1BFCF /* HackDetailsViewController.swift in Sources */,
+				7B3ED0F01D85CBDF00C1BFCF /* ParticipantCell.swift in Sources */,
+				7B3ED0DA1D85417E00C1BFCF /* HackMapper.swift in Sources */,
+				7B3ED0C91D8533ED00C1BFCF /* ProjectDetailsViewController.swift in Sources */,
+				7B3ED0CB1D8533FD00C1BFCF /* ParticipantDetailsViewController.swift in Sources */,
+				7B3ED0B71D85244900C1BFCF /* RoleDO.swift in Sources */,
 				7B3ED0721D84D4A700C1BFCF /* AppDelegate.swift in Sources */,
+				7B3ED0EC1D85CB8D00C1BFCF /* ProjectCell.swift in Sources */,
+				7B3ED0BE1D85284F00C1BFCF /* HackUserRelationDO.swift in Sources */,
+				7B3ED0D81D85416200C1BFCF /* HackManager.swift in Sources */,
+				7B3ED0A41D84D7B400C1BFCF /* User.swift in Sources */,
+				7B3ED0AA1D84D88D00C1BFCF /* Skill.swift in Sources */,
+				7B3ED0A61D84D85B00C1BFCF /* Project.swift in Sources */,
+				7B3ED0E61D856C0800C1BFCF /* UserMapper.swift in Sources */,
+				7B3ED0C71D8533DD00C1BFCF /* ParticipantsViewController.swift in Sources */,
+				7B3ED0A81D84D87100C1BFCF /* Role.swift in Sources */,
+				7B3ED0B31D85132800C1BFCF /* Constants.swift in Sources */,
+				7B3ED0C11D85332E00C1BFCF /* HacksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

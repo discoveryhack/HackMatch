@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="1OZ-ng-k6P">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Hacks View Controller-->
+        <scene sceneID="pOs-kj-pqm">
+            <objects>
+                <viewController storyboardIdentifier="HacksViewController" id="wzl-NQ-0A5" customClass="HacksViewController" customModule="HackMatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9lK-Vm-Be0"/>
+                        <viewControllerLayoutGuide type="bottom" id="116-lC-8d0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HV3-oL-ayh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xvG-9T-nZ7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HackCell" rowHeight="66" id="xys-0i-Mr2" customClass="HackCell" customModule="HackMatch" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="92" width="320" height="66"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xys-0i-Mr2" id="MZs-fC-NC3">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="65.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hackName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NyF-jN-o5k">
+                                                    <rect key="frame" x="13" y="22" width="82" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="hackNameLabel" destination="NyF-jN-o5k" id="nuV-kq-37K"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SOY-Jl-WfB"/>
+                    <connections>
+                        <outlet property="hacksTableView" destination="xvG-9T-nZ7" id="eJh-UO-Sy7"/>
+                        <segue destination="MPr-Iv-EpY" kind="push" identifier="HackDetailsSegue" id="MPG-J7-LDl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ix3-HQ-mAh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="626" y="332"/>
+        </scene>
+        <!--Hack Details View Controller-->
+        <scene sceneID="dgH-vc-CUW">
+            <objects>
+                <viewController id="MPr-Iv-EpY" customClass="HackDetailsViewController" customModule="HackMatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v5b-pS-6Qw"/>
+                        <viewControllerLayoutGuide type="bottom" id="SIR-wB-aGz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="haH-5y-1cd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="foT-QI-eHw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="524"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aFk-5g-tT7">
+                                <rect key="frame" x="0.0" y="522" width="320" height="46"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIT-fd-L7J">
+                                        <rect key="frame" x="49" y="8" width="56" height="30"/>
+                                        <state key="normal" title="Projects"/>
+                                        <connections>
+                                            <action selector="onProjectsTabItemTap:" destination="MPr-Iv-EpY" eventType="touchUpInside" id="tvf-iv-pSQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KDH-Gj-YfJ">
+                                        <rect key="frame" x="203" y="8" width="82" height="30"/>
+                                        <state key="normal" title="Participants"/>
+                                        <connections>
+                                            <action selector="onParticipantsTabItemTap:" destination="MPr-Iv-EpY" eventType="touchUpInside" id="eGd-ya-Nqu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zcm-rp-G8U"/>
+                    <connections>
+                        <outlet property="contentView" destination="foT-QI-eHw" id="OSH-yi-wqo"/>
+                        <outlet property="hackTabBarView" destination="aFk-5g-tT7" id="IFq-Af-cZ5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5et-Md-vjb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1146" y="332"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="45Z-aW-zy3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1OZ-ng-k6P" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vME-qw-LQn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wzl-NQ-0A5" kind="relationship" relationship="rootViewController" id="AcU-KY-OdO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NfQ-ZI-PbW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="195" y="332"/>
+        </scene>
+    </scenes>
+</document>
